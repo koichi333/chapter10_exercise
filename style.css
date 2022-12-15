@@ -40,7 +40,7 @@ main {
   top: 0;
   left: 0;
   color: white;
-  padding: 5px 0;
+  padding: 2px 3px;
   background-color: #FF9A4B;
 }
 
@@ -72,3 +72,34 @@ h3 {
   margin: 15px 0 5px 0;
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .step-container {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .step-box:nth-child(2) {
+    margin: 20px 0;
+  }
+
+  .step1 .step-image {
+    width: 100%;
+    height: 150px;
+  }
+
+  .step2 .step-image {
+    width: 100%;
+    height: 150px;
+  }
+
+  .step3 .step-image {
+    width: 100%;
+    height: 150px;
+  }
+}
